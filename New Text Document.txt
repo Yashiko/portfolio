@@ -1,0 +1,11 @@
+4 paskaita
+
+darbas pagal:
+http://bootstraplovers.com/templates/assan-v2.6/main-template/index.html
+
+
+<i> naudojamas su iconoms dirbti
+jas atsisiusti is font-awesome.com
+
+ display: block;   /*tekstinius elementu, nuoroda pavercia i div'a*/
+<i class="fa fa-2x  fa-facebook-official"></i>   /* irasius fa-2x padidina iconele x2, eiliskumas nera svarbu
