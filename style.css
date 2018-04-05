@@ -1,12 +1,7 @@
 body{
     margin: 0 auto;
 }
-.container{     /*naudojamas visada ir su tokiais parametrais ismokti */
-    margin: 0 auto;
-    max-width: 1024px;
-    width:100%;
 
-}
 /* menu */
 .menu{
     position: fixed;
@@ -69,11 +64,15 @@ ul li{
     margin-right: 40px;
 }
 button{
+    cursor: pointer;
     width: 120px;
     height: 40px;
     font-size: 15px;
     border-radius: 5px;
     border: none;
+}
+button:hover{
+    background-color: #9aa2a7;
 }
 
 h1{
@@ -130,32 +129,32 @@ margin: auto;/*    display: inline-block;*/
 }
 
 /* Projects */
+.container-skills{ 
+    margin: 0 auto;
+    max-width: 1024px;
+    width:100%;
+}
+
 ul.projects-menu-list{
     margin-top: 25px;
     padding-left: 5px;
     text-align: center;
     color: #687074;
 }
-/*
-.projects-list{
-    display: inline;
-    padding-left:200px;
-
-}
-*/
 .projects-image{
-    width: 30%;
+    width: 15%;
     height: auto;
     padding: 10px;
 }
 .container2{
-    margin-left: 350px;/*???? jei margin auto neveikia*/
+    margin-left: 800px;
+    max-width: 1024px;
     display: inline;
     position: relative;
 }
 .overlay-projects {
     position: absolute;
-    bottom: 13px;/*hoverio nustatymai*/
+    bottom: 13px;
     left: 10px;
     right: 0;
     background-color: #333;
@@ -176,7 +175,7 @@ ul.projects-menu-list{
     text-align: center;
 }
 .container2:hover .overlay-projects{
-    height: 500%; /*????why 500*/
+    height: 500%;
 }
 .projects-list-text{
     font-size: 12px;
@@ -184,7 +183,6 @@ ul.projects-menu-list{
 }
 
 /*Experience*/
-
 .expirience-body{
     width: 100%;
     display: inline;
@@ -211,43 +209,53 @@ ul.projects-menu-list{
 
 /*Skills*/
 
+#htmlSkill {
+    margin: 20px;
+    width: 130px;
+    height: 130px;
+  }
+#cssSkill {
+    margin: 20px;
+    width: 130px;
+    height: 130px;
+}
+#jsSkill{
+    margin: 20px;
+    width: 130px;
+    height: 130px;
+}
+#bootstrapSkill {
+    margin: 20px;
+    width: 130px;
+    height: 130px;
+}
+#jqSkill {
+    margin: 20px;
+    width: 130px;
+    height: 130px;
+}
+.container-skills{
+    width:100%;
+    margin-bottom: 180px; 
+}
+.text-skills{
+    color: #555;
+    font-family: 'Raleway', sans-serif;
+}
 .skills-body{
     margin-top: 20px;
     width: 100%;
     height: auto;
 }
-.skills-body{
-
-    position: relative;
-
-}
 .skills-box{
-    width: 300px;
-    margin-top: 30px;
+    width: 1000px;
+    margin-top: 40px;
     height: 100px;
 }
-
-/* education */
-.education-body{
-    padding-top: 180px;
-    width: 100%;
-    height: 500px;
-    margin: auto;
-
-}
-.education-left-bar{
-    padding-top: 50px;
-    float: left;
-    padding-left: 300px;
-
-}
-.education-right-bar{
-    color:#687074;
-    padding-top: 40px;
-    padding-left: 80px;
-    float: left;
-    width: 30%;
-    line-height: 23px;
+.grid-container {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 /*Contact-footer*/
@@ -261,13 +269,12 @@ h3{
     padding-left: 50px;
     text-align: left;
     font-family: 'Raleway', sans-serif;
-    margin-bottom: 7px;
+    margin-bottom:-10px;
     color: #666666;
 }
 a.footer-links:hover{
     color: #666666;
 }
-
 .left-footer{
     margin: auto;
     padding-left: 15%;
@@ -275,4 +282,9 @@ a.footer-links:hover{
     float: left;
     line-height: 35px;
 }
-
+.copyright{
+    height: 50px;
+    margin: auto 0;
+    margin-top: 40px;
+    text-align: center;
+}
