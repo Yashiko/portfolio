@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Andrius Geleževičius">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrius Geleževičius CV</title>
+    <title>Andrius Geleževičius</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -48,15 +48,15 @@
                     <li>
                         <a href="https://www.linkedin.com/in/andrius-gele%C5%BEevi%C4%8Dius-67832a147/" class="facebook" target="_blank">
                             <button>
-                                <i class="fa fa-linkedin-square fa-1x"></i>
-                                LinkedIn </button>
+                                <i class="fa fa-linkedin-square fa-1x"></i> LinkedIn
+                            </button>
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/Yashiko" class="facebook" target="_blank">
                             <button>
-                                <i class="fa fa-github fa-1x" aria-hidden="true"></i>
-                                Github</button>
+                                <i class="fa fa-github fa-1x" aria-hidden="true"></i> Github
+                            </button>
                         </a>
                     </li>
                 </ul>
@@ -65,7 +65,7 @@
     </div>
 
     <!-- ABOUT ME -->
-    <div class="container">
+    <div>
         <h1>About Me</h1>
         <hr>
         <div class="aboutText">
@@ -81,35 +81,51 @@
         <div class="divide"></div>
     </div>
     <!-- PROJECTS -->
-    <div class="container">
+    <div>
         <div>
             <h1 id="projects">Projects</h1>
             <hr>
             <ul class="projects-menu-list">
                 <li>
-                    <a href="#">All</a>
+                    <a onclick="showAll()" href="#projects">All</a>
                 </li>
                 <li>
-                    <a href="#">Web pages</a>
+                    <a onclick="showWeb()" href="#projects">Web pages</a>
                 </li>
                 <li>
-                    <a href="#">Web apps</a>
+                    <a onclick="showApp()" href="#projects">Web apps</a>
                 </li>
             </ul>
         </div>
-        <!--            <div class="projects-list">-->
-        <a href="#">
-            <div class="container2">
-                <img class="projects-image" src="darbas1.jpg" alt="darbas1" width="300px">
-                <div class="overlay-projects">
-                    <div class="text">
-                        <em>"Lashes by Myla"
-                            <br>
-                            <p class="projects-list-text">by Andrius Geleževičius</p>
-                        </em>
+
+        <div class="container" id="result">
+            <a href="#">
+                <div class="container2" >
+                    <img class="projects-image" src="darbas1.jpg" alt="darbas1" width="300px">
+                    <div class="overlay-projects">
+                        <div class="text">
+                            <em>"Lashes by Myla"
+                                <br>
+                                <p class="projects-list-text">by Andrius Geleževičius</p>
+                            </em>
+                        </div>
                     </div>
                 </div>
-        </a>
+            </a>
+
+            <a href="https://github.com/Yashiko/who-wants-to-be-a-millionaire-" target="_blank">
+                <div class="container2">
+                    <img class="projects-image" src="mil.png" alt="millionaire" width="300px">
+                    <div class="overlay-projects">
+                        <div class="text">
+                            <em>"millionaire"
+                                <br>
+                                <p class="projects-list-text">by Andrius Geleževičius</p>
+                            </em>
+                        </div>
+                    </div>
+              </a>
+              
         </div>
     </div>
 
@@ -174,13 +190,10 @@
                 class="footer-links">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                 <strong>Location:</strong> Vilnius, Lithuania</a>
-            
+
         </div>
     </div>
     <p class="copyright">© 2018 Andrius Geleževičius. All rights reserved.</p>
-
-
-
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://cdn.rawgit.com/kimmobrunfeldt/progressbar.js/0.5.6/dist/progressbar.js"></script>

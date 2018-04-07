@@ -1,7 +1,10 @@
 body{
     margin: 0 auto;
 }
-
+.container{
+    margin: auto;
+    width: 35%;
+}
 /* menu */
 .menu{
     position: fixed;
@@ -142,13 +145,10 @@ ul.projects-menu-list{
     color: #687074;
 }
 .projects-image{
-    width: 15%;
-    height: auto;
+    height: 300px;
     padding: 10px;
 }
 .container2{
-    margin-left: 800px;
-    max-width: 1024px;
     display: inline;
     position: relative;
 }
