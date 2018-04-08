@@ -4,7 +4,7 @@
 // Projects
 function showAll(){
   let resultHtmlWeb = `
-  <div>
+<div>
   <a href="#">
       <div class="container2" >
           <img class="projects-image" src="darbas1.jpg" alt="darbas1" width="300px">
@@ -29,7 +29,7 @@ function showAll(){
                       <p class="projects-list-text">by Andrius Geleževičius</p>
                   </em>
               </div>
-          </div>
+        </div>
     </a>
 </div>
 `;
@@ -58,29 +58,37 @@ document.querySelector("#result").innerHTML = resultHtmlWeb;
 
 function showApp(){
   let resultHtmlWeb = `
-  <div class="container">            
-  <a href="https://github.com/Yashiko/who-wants-to-be-a-millionaire-" target="_blank">
-  <div class="container2">
-      <img class="projects-image" src="mil.png" alt="millionaire" width="300px">
-      <div class="overlay-projects">
-          <div class="text">
-              <em>"millionaire"
-                  <br>
-                  <p class="projects-list-text">by Andrius Geleževičius</p>
-              </em>
+  <div>
+  <a href="https://github.com/Yashiko/GameWall">
+      <div class="container2" >
+          <img class="projects-image" src="gameWall.jpg" alt="gameWall" width="300px">
+          <div class="overlay-projects">
+              <div class="text">
+                  <em>"gameWall"
+                      <br>
+                      <p class="projects-list-text">by Andrius Geleževičius</p>
+                  </em>
+              </div>
           </div>
       </div>
-</a>
+  </a>
+
+  <a href="https://github.com/Yashiko/who-wants-to-be-a-millionaire-" target="_blank">
+      <div class="container2">
+          <img class="projects-image" src="mil.png" alt="millionaire" width="300px">
+          <div class="overlay-projects">
+              <div class="text">
+                  <em>"millionaire"
+                      <br>
+                      <p class="projects-list-text">by Andrius Geleževičius</p>
+                  </em>
+              </div>
+        </div>
+    </a>
 </div>
 `;
 document.querySelector("#result").innerHTML = resultHtmlWeb;
 };
-
-
-
-
-// Skills
-
 
 // skills animation
         var bar = new ProgressBar.Circle(htmlSkill, {
