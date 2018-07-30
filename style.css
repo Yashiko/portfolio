@@ -303,7 +303,6 @@ a.footer-links:hover{
 @media only screen and (max-width: 1000px) {
     .projects-width{
         width: 300px;
-        
     }
 }
 @media only screen and (max-width: 900px) {
@@ -327,17 +326,24 @@ a.footer-links:hover{
         height: 20px;
     };
 }
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 747px) {
     .footer-bar-dark{
         height: 280px;
     };
 }
 @media only screen and (max-width: 820px) {
+    #contact{
+        padding-left: 0%;
+        text-align: center;
+
+    };
+}
+@media only screen and (max-width: 747px) {
     .left-footer{
-        left:50%;
+        padding-left: 30%;
         text-align: center;
         font-size: 14px;
-        display: inline;
+
     };
 }
 /* @media only screen and (max-width: 900px) {
