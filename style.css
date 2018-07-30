@@ -285,6 +285,9 @@ a.footer-links:hover{
     width: 30%;
     float: left;
     line-height: 35px;
+};
+.projects-width{
+    width:650px;
 }
 .copyright{
     height: 50px;
@@ -292,3 +295,51 @@ a.footer-links:hover{
     margin-top: 40px;
     text-align: center;
 }
+@media only screen and (max-width: 1200px) {
+    .menu{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .projects-width{
+        width: 300px;
+        
+    }
+}
+@media only screen and (max-width: 900px) {
+    .centered{
+        font-size: 20px;
+    };
+}
+@media only screen and (max-width: 900px) {
+    .bannerName{
+        font-size: 15px;
+    };
+}
+@media only screen and (max-width: 900px) {
+    hr{
+        display: none;
+    };
+}
+@media only screen and (max-width: 1200px) {
+    .btn{
+        width: 50px;
+        height: 20px;
+    };
+}
+@media only screen and (max-width: 820px) {
+    .footer-bar-dark{
+        height: 280px;
+    };
+}
+@media only screen and (max-width: 820px) {
+    .left-footer{
+        left:50%;
+        text-align: center;
+        font-size: 14px;
+        display: inline;
+    };
+}
+/* @media only screen and (max-width: 900px) {
+    
+} */
