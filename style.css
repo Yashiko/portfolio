@@ -326,6 +326,24 @@ a.footer-links:hover{
         height: 20px;
     };
 }
+@media only screen and (max-width: 980px) {
+    .container-skills{
+        width: 200px;
+        margin-left: 0;
+    };
+}
+@media only screen and (max-width: 980px) {
+    .grid-container{
+        width: 200px;
+        
+    };
+}
+
+
+
+
+
+
 @media only screen and (max-width: 747px) {
     .footer-bar-dark{
         height: 280px;
