@@ -298,12 +298,23 @@ a.footer-links:hover{
 @media only screen and (max-width: 1200px) {
     .menu{
         display: none;
-    }
+    };
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 980px) {
+    .projects-menu-list{
+        display: none;
+      
+    };
+@media only screen and (max-width: 1300px) {
     .projects-width{
+        margin: 0 auto;
         width: 300px;
-    }
+    };
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        padding-left: 5px;
+    };
 }
 @media only screen and (max-width: 900px) {
     .centered{
@@ -326,44 +337,68 @@ a.footer-links:hover{
         height: 20px;
     };
 }
+
 @media only screen and (max-width: 980px) {
-    .container-skills{
-        width: 200px;
-        margin-left: 0;
+    div.container-skills{
+        margin-left: 40px;
+        width: 300px;
+      
     };
 }
 @media only screen and (max-width: 980px) {
-    .grid-container{
-        width: 200px;
-        
+    #htmlSkill{
+        width: 100px;
+        height: 100px;
+    
     };
 }
-
-
-
-
+@media only screen and (max-width: 980px) {
+    #cssSkill{
+        width: 100px;
+        height: 100px;
+    
+    };
+}
+@media only screen and (max-width: 980px) {
+    #jsSkill{
+        width: 100px;
+        height: 100px;
+    
+    };
+}
+@media only screen and (max-width: 980px) {
+    #bootstrapSkill{
+        width: 100px;
+        height: 100px;
+    
+    };
+}
+@media only screen and (max-width: 980px) {
+    #jqSkill{
+        width: 100px;
+        height: 100px;
+    
+    };
+}
 
 
 @media only screen and (max-width: 747px) {
     .footer-bar-dark{
-        height: 280px;
+        height: 270px;
     };
-}
+
 @media only screen and (max-width: 820px) {
     #contact{
-        padding-left: 0%;
-        text-align: center;
+        margin-left: 0;
 
     };
 }
 @media only screen and (max-width: 747px) {
     .left-footer{
-        padding-left: 30%;
+        margin: 0 auto;
+        padding-left: 36%;
         text-align: center;
         font-size: 14px;
 
     };
 }
-/* @media only screen and (max-width: 900px) {
-    
-} */
