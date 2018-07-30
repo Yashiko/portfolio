@@ -3,7 +3,7 @@ body{
 }
 .container{
     margin: auto;
-    width: 47%;
+    width: 50%;
 }
 /* menu */
 .menu{
@@ -150,7 +150,7 @@ ul.projects-menu-list{
     height: 300px;
     padding: 10px;
 }
-.container2{
+.container2{    
     display: inline;
     position: relative;
 }
