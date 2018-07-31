@@ -308,20 +308,26 @@ a.footer-links:hover{
         display: none;
       
     };
-@media only screen and (max-width: 1300px) {
-    .projects-width{
-        margin: 0 auto;
-        width: 300px;
-    };
-}
+
 @media only screen and (max-width: 600px) {
     .container{
         padding-left: 5px;
     };
 }
 @media only screen and (max-width: 962px) {
+    h1{
+        margin: 0 auto;
+    };
+}
+@media only screen and (max-width: 962px) {
     .centered{
+        margin: 0 auto;
         font-size: 30px;
+    };
+}
+@media only screen and (max-width: 962px) {
+    .banner{
+        margin: 0 auto;
     };
 }
 @media only screen and (max-width: 962px) {
