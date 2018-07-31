@@ -319,17 +319,18 @@ a.footer-links:hover{
         padding-left: 5px;
     };
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 962px) {
     .centered{
+        font-size: 30px;
+    };
+}
+@media only screen and (max-width: 962px) {
+    .bannerName{
+        margin: 0 auto;
         font-size: 20px;
     };
 }
-@media only screen and (max-width: 900px) {
-    .bannerName{
-        font-size: 15px;
-    };
-}
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 962px) {
     hr{
         display: none;
     };
