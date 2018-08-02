@@ -305,7 +305,10 @@ a.footer-links:hover{
     margin-top: 40px;
     text-align: center;
 }
-@media only screen and (max-width: 1200px) {
+
+@media only screen .contact{
+        margin-left: 0;
+}and (max-width: 1200px) {
     .menu{
         display: none;
     };
@@ -368,7 +371,7 @@ a.footer-links:hover{
     #htmlSkill{
         width: 70px;
         height: 70px;
-    
+        margin-bottom: 30px;
     };
 }
 @media only screen and (max-width: 980px) {
@@ -416,9 +419,13 @@ a.footer-links:hover{
 
 @media only screen and (max-width: 820px) {
     #contact{
-        margin: 0 auto;
-
-
+        margin: 0 auto; 
+    };
+}
+@media only screen and (max-width: 820px) {
+    .contact{
+        margin: 0 auto; 
+        padding-left: 30px;
     };
 }
 @media only screen and (max-width: 747px) {
