@@ -104,7 +104,7 @@ function showApp() {
     </div>
 
     <div>
-    <a href="#">
+    <a href="https://github.com/Yashiko/calculator" target="_blank">
     <div class="container2">
         <img class="projects-image" src="calculator.jpg" alt="calculator" width="300px">
         <div class="overlay-projects">
