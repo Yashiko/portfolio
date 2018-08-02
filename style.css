@@ -261,12 +261,13 @@ ul.projects-menu-list{
     height: auto;
 }
 .skills-box{
-    width: 1000px;
+    width: 100%;
     margin-top: 40px;
     height: 100px;
 }
-.grid-container {
+.grid-container{
     margin-top: 5px;
+    width: 100%;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
 }
@@ -365,45 +366,45 @@ a.footer-links:hover{
 
 @media only screen and (max-width: 980px) {
     #htmlSkill{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     
     };
 }
 @media only screen and (max-width: 980px) {
     #cssSkill{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     
     };
 }
 @media only screen and (max-width: 980px) {
     #jsSkill{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     
     };
 }
 @media only screen and (max-width: 980px) {
     #bootstrapSkill{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     
     };
 }
 @media only screen and (max-width: 980px) {
     #jqSkill{
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     
     };
 }
 
 @media only screen and (max-width: 980px) {
-    .container-skills {
-       margin-left: 40px;
-       /* margin-right: 40px; */
-        width: 20%;
+    .grid-container{
+        margin-left: 40px;
+        height: 140px;
+        grid-template-columns: auto auto auto;
       
     };
 }
