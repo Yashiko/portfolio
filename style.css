@@ -80,7 +80,7 @@ button:hover{
     background-color: #9aa2a7;
 }
 .invisible-buttons{
-    /* display: none; */
+    display: none;
     width: 210px;
     margin-top: 70px;
     list-style-type: none;
@@ -328,9 +328,11 @@ a.footer-links:hover{
 @media only screen and (max-width: 962px) {
     .centered{
         margin: 0 auto;
-        font-size: 30px;
+        font-size: 40px;
+        margin-top: 20px;
     };
 }
+
 @media only screen and (max-width: 962px) {
     .banner{
         margin: 0 auto;
@@ -347,34 +349,19 @@ a.footer-links:hover{
         display: none;
     };
 }
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 2000px) {
     .banner-buttons{
        display: none;
     };
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 2000px) {
     .invisible-buttons {
     display: block;
     margin: 0 auto;
+    margin-top: -20px;
+    };
+}
 
-    };
-}
-@media only screen and (max-width: 980px) {
-    .skills-body{
-        width: 400px;
-        height: 500px;
-        margin: 0 auto;
-    };
-}
-@media only screen and (max-width: 980px) {
-    div.container-skills{
-
-        margin-left: 40px;
-        margin-bottom: 100px; 
-        width: 300px;
-      
-    };
-}
 
 @media only screen and (max-width: 980px) {
     #htmlSkill{
@@ -412,6 +399,14 @@ a.footer-links:hover{
     };
 }
 
+@media only screen and (max-width: 980px) {
+    .container-skills {
+       margin-left: 40px;
+       /* margin-right: 40px; */
+        width: 20%;
+      
+    };
+}
 
 @media only screen and (max-width: 747px) {
     .footer-bar-dark{
