@@ -306,11 +306,21 @@ a.footer-links:hover{
     text-align: center;
 }
 
-@media only screen .contact{
-        margin-left: 0;
-}and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .menu{
         display: none;
+    };
+}
+@media only screen and (max-width: 1300px) {
+    .banner-buttons{
+       display: none;
+    };
+}
+@media only screen and (max-width: 1300px) {
+    .invisible-buttons {
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
     };
 }
 @media only screen and (max-width: 980px) {
@@ -319,11 +329,7 @@ a.footer-links:hover{
       
     };
 
-@media only screen and (max-width: 600px) {
-    .container{
-        padding-left: 5px;
-    };
-}
+
 @media only screen and (max-width: 962px) {
     h1{
         margin: 0 auto;
@@ -333,7 +339,6 @@ a.footer-links:hover{
     .centered{
         margin: 0 auto;
         font-size: 40px;
-        margin-top: 20px;
     };
 }
 
@@ -353,18 +358,7 @@ a.footer-links:hover{
         display: none;
     };
 }
-@media only screen and (max-width: 2000px) {
-    .banner-buttons{
-       display: none;
-    };
-}
-@media only screen and (max-width: 2000px) {
-    .invisible-buttons {
-    display: block;
-    margin: 0 auto;
-    margin-top: -20px;
-    };
-}
+
 
 
 @media only screen and (max-width: 980px) {
@@ -412,10 +406,6 @@ a.footer-links:hover{
     };
 }
 
-@media only screen and (max-width: 747px) {
-    .footer-bar-dark{
-        height: 270px;
-    };
 
 @media only screen and (max-width: 820px) {
     #contact{
@@ -435,5 +425,15 @@ a.footer-links:hover{
         text-align: center;
         font-size: 14px;
 
+    };
+}
+@media only screen and (max-width: 747px) {
+    .footer-bar-dark{
+        height: 270px;
+    };
+
+@media only screen and (max-width: 600px) {
+    .container{
+        padding-left: 5px;
     };
 }
