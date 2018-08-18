@@ -16,7 +16,6 @@ function showAll() {
               </div>
           </div>
       </a>
-    
       <a href="https://github.com/Yashiko/who-wants-to-be-a-millionaire-" target="_blank">
           <div class="container2">
               <img class="projects-image" src="mil.png" alt="millionaire" width="300px">
@@ -29,9 +28,9 @@ function showAll() {
                   </div>
             </div>
         </a>
-        </div>
+    </div>
     
-        <div>
+    <div>
         <a href="https://github.com/Yashiko/calculator" target="_blank">
         <div class="container2">
             <img class="projects-image" src="calculator.jpg" alt="calculator" width="300px">
@@ -45,8 +44,22 @@ function showAll() {
             </div>
         </div>
         </a>
+        <a href="https://github.com/Yashiko/timer" target="_blank">
+        <div class="container2">
+            <img class="projects-image" src="startTimer.jpg" alt="timer" width="300px">
+            <div class="overlay-projects">
+                <div class="text">
+                    <em>"Start Timer"
+                        <br>
+                        <p class="projects-list-text">by Andrius Geleževičius</p>
+                    </em>
+                </div>
+            </div>
+        </div>
+        </a>
         </div>
     </div>`;
+
         document.querySelector("#result").innerHTML = resultHtmlWeb;
     };
 
@@ -110,6 +123,22 @@ function showApp() {
         <div class="overlay-projects">
             <div class="text">
                 <em>"calcucator"
+                    <br>
+                    <p class="projects-list-text">by Andrius Geleževičius</p>
+                </em>
+            </div>
+        </div>
+    </div>
+    </a>
+    
+
+    
+    <a href="https://github.com/Yashiko/timer" target="_blank">
+    <div class="container2">
+        <img class="projects-image" src="startTimer.jpg" alt="timer" width="300px">
+        <div class="overlay-projects">
+            <div class="text">
+                <em>"Start Timer"
                     <br>
                     <p class="projects-list-text">by Andrius Geleževičius</p>
                 </em>
