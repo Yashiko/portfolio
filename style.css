@@ -247,6 +247,11 @@ ul.projects-menu-list{
     width: 130px;
     height: 130px;
 }
+#sassSkill {
+    margin: 20px;
+    width: 130px;
+    height: 130px;
+}
 .container-skills{
     width:100%;
     margin-bottom: 180px; 

@@ -220,4 +220,13 @@ var bar5 = new ProgressBar.Circle(jqSkill, {
     svgStyle: null
 });
 bar5.animate(0.2);
-
+var bar6= new ProgressBar.Circle(sassSkill, {
+    strokeWidth: 6,
+    easing: 'easeInOut',
+    duration: 1400,
+    color: '#555',
+    trailColor: '#eee',
+    trailWidth: 1,
+    svgStyle: null
+});
+bar6.animate(0.2);
