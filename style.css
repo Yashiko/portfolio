@@ -223,34 +223,35 @@ ul.projects-menu-list{
     height: 100%;
 }
 #htmlSkill {
-    margin: 20px;
-    width: 130px;
-    height: 130px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
   }
 #cssSkill {
-    margin: 20px;
-    width: 130px;
-    height: 130px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
 }
 #jsSkill{
-    margin: 20px;
-    width: 130px;
-    height: 130px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
 }
 #bootstrapSkill {
-    margin: 20px;
-    width: 130px;
-    height: 130px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
 }
 #jqSkill {
-    margin: 20px;
-    width: 130px;
-    height: 130px;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
 }
 #sassSkill {
-    margin: 20px;
-    width: 130px;
-    height: 130px;
+    margin: 10px;
+    margin-top: 40px;
+    width: 100px;
+    height: 100px;
 }
 .container-skills{
     width:100%;
@@ -282,6 +283,7 @@ ul.projects-menu-list{
     width: 100%;
     background-color: #333;
     height: 170px;
+    margin-top: 50px;
 
 }
 h3{
